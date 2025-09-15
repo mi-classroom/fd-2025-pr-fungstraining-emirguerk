@@ -1,6 +1,17 @@
 /* Work 
 ############################################################################ */
+
+/* Container sind nicht in einer und der selben Größe, muss angepasst werden */
 .work {
+  display: flex;
+  width: 80vh;
+  min-height: 170px;
+  padding: var(--size-xs);
+  padding-bottom: var(--size-xs);
+  border-bottom: var(--size-xxs) solid var(--interaction-color);
+  background-color: var(--color-lightest);
+  gap: var(--size-xs);
+
   hr {
     margin: 0;
     margin-top: var(--size-l);
@@ -9,5 +20,10 @@
 
   p {
     margin-bottom: var(--size-m);
+  }
+
+  img{
+    width: auto;
+    height: var(--size-xxl);
   }
 }

@@ -42,6 +42,7 @@
   width: max-content;
   padding: var(--size-xs) var(--size-s);
   border-radius: var(--radius-xs);
+  margin-top: var(--size-m);
   background-color: var(--interaction-color);
   color: var(--color-lightest);
   transition: all var(--tr-fast);

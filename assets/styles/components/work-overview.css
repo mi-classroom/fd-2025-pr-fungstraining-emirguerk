@@ -1,2 +1,8 @@
 /* Work Overview
 ############################################################################ */
+
+.work-overview{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-xs);
+}
