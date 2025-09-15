@@ -29,7 +29,7 @@
         }
     }
 
-    main > img{
+    main img{
         max-width: 450px; /* es gibt keine passende custom propety */
         padding: 0;
         margin-bottom: var(--size-l);
@@ -38,5 +38,18 @@
     #pictures, #video{
         color: var(--decoration-color);
         font-size: var(--size-m);
+    }
+
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--size-xxs);
+
+        img{
+            width: 200px;
+            height: 200px;
+            margin: 0;
+            object-fit: cover;
+        }
     }
 }
