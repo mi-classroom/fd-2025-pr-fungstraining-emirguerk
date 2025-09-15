@@ -10,7 +10,7 @@ const fetchJson = async (URL) => {
 
 const initWorks = async () => {
     try{
-        const worksJson = await fetchJson('assets/json/works.json')
+        const worksJson = await fetchJson('/assets/json/works.json')
         const worksHtmlContainer = document.querySelector('[data-js-finished-works]')
 
         worksJson.sort((workA, workB) => {

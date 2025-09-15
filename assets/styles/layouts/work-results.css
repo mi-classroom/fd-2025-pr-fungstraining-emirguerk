@@ -1,2 +1,42 @@
 /* Work Result
 ############################################################################ */
+.work-result{
+    main > section{
+        & > h2{
+            margin-bottom: var(--size-s);
+        }
+
+        & > h3{
+            margin-top: 0;
+            color: var(--color-dark);
+        }
+
+        & > dl{
+            a{
+                border: none;
+            }
+
+            div{
+                padding-top: var(--size-xs);
+                border-top: 2px solid var(--decoration-color);
+            }
+        }
+    }
+
+    .header{
+        & > .title, & > .subtitle, & > .subtitle a{
+            font-size: var(--size-m);
+        }
+    }
+
+    main > img{
+        max-width: 450px; /* es gibt keine passende custom propety */
+        padding: 0;
+        margin-bottom: var(--size-l);
+    }
+
+    #pictures, #video{
+        color: var(--decoration-color);
+        font-size: var(--size-m);
+    }
+}

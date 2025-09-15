@@ -7,5 +7,8 @@ import { initWorks } from './modules/works.js';
 document.addEventListener('DOMContentLoaded', function() {
   hljs.highlightAll();
   slideshow();
-  initWorks();
+  initWorks(); /* Alle Werke werden geladen. 
+                  Auch wenn man sich nur ein Werk in Detail anschaut. 
+                  Dies führt zu Fehlermeldungen. Auf den Beispielseiten
+              */
 });
