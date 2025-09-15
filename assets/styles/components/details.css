@@ -11,7 +11,7 @@ details{
       width: var(--size-l);
       height: var(--size-l);
       padding-right: var(--size-xxs);
-      color: var(--decoration-color);
+      color: var(--interaction-color);
       content: "chevron_right";
       direction: ltr;
       font-family: var(--font-icons);
