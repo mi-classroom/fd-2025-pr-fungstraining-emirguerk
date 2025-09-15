@@ -1,0 +1,11 @@
+/* Form Input
+############################################################################ */
+
+.simple-input{
+    padding-bottom: var(--size-xs);
+    border-bottom: 1px solid var(--decoration-color);
+}
+
+.simple-input::placeholder{
+    color: var(--color-lightest);
+}

@@ -34,3 +34,21 @@
     
   }
 }
+
+/* Form Button
+############################################################################ */
+
+.form-button{
+  width: max-content;
+  padding: var(--size-xs) var(--size-s);
+  border-radius: var(--radius-xs);
+  background-color: var(--interaction-color);
+  color: var(--color-lightest);
+  transition: all var(--tr-fast);
+
+  &:hover{
+    background-color: var(--color-darkblue);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+  }
+}

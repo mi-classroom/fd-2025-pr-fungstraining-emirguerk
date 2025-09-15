@@ -3,3 +3,10 @@
 
 /* Form
 ############################################################################ */
+
+#send-topic-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--size-m);
+    gap: var(--size-l);
+}
