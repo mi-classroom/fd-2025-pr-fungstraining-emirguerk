@@ -47,7 +47,7 @@ const initWorks = async () => {
     }
 };
 
-const showAllWorks = async () => {
+const showAllWorks = async () => { // F9 fix
     document.querySelector('[data-js-works-button]').style.display = "none";
 
     const worksJson = await fetchJson('assets/json/works.json')
