@@ -64,6 +64,11 @@ h2 + h3 {
   margin-top: var(--size-l);
 }
 
+h2 span[class^="icofont-"]{
+  margin-right: var(--size-s);
+  color: var(--color-dark);
+}
+
 h3 i[class^="icofont-"] {
   margin-bottom: calc(1em * -0.2) !important;
 }
